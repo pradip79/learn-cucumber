@@ -11,6 +11,7 @@ public class WikipediaMainPage {
 		this.driver = driver;
 	}	
 
+	//Lets add some comment
 	public void searchItem(String searchItem) {
 		WebElement searchField = driver.findElement(By.id("searchInput"));
 		WebElement searchButton = driver.findElement(By.id("searchButton"));		
